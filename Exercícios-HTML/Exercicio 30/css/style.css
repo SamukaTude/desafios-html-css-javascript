@@ -1,0 +1,229 @@
+/* ==========================================
+   CONFIGURAÇÕES GERAIS
+   ========================================== */
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f2f2;
+
+    color: #222;
+
+}
+
+
+/* ==========================================
+   CABEÇALHO
+   ========================================== */
+
+header {
+
+    background-color: #222;
+
+    color: white;
+
+    padding: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+/* Classe utilizada no logo */
+
+.logo {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+
+/* Menu */
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 10px;
+
+}
+
+
+/* Efeito ao passar o mouse */
+
+nav a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+/* ==========================================
+   BANNER
+   ========================================== */
+
+#banner {
+
+    background-size: cover;
+
+    background-position: center;
+
+    min-height: 400px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+/* Conteúdo do banner */
+
+.banner-conteudo {
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    color: white;
+
+    padding: 40px;
+
+    border-radius: 10px;
+
+}
+
+
+/* ==========================================
+   CONTEÚDO
+   ========================================== */
+
+.conteudo {
+
+    background-color: white;
+
+    margin: 30px auto;
+
+    padding: 30px;
+
+    max-width: 900px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+}
+
+
+.conteudo h2 {
+
+    color: #333;
+
+}
+
+
+.conteudo p {
+
+    line-height: 1.6;
+
+}
+
+
+/* ==========================================
+   BOTÃO
+   ========================================== */
+
+.botao,
+button {
+
+    background-color: #333;
+
+    color: white;
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+}
+
+
+button:hover,
+.botao:hover {
+
+    background-color: #555;
+
+}
+
+
+/* ==========================================
+   TABELA
+   ========================================== */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+th,
+td {
+
+    border: 1px solid #999;
+
+    padding: 12px;
+
+    text-align: left;
+
+}
+
+
+th {
+
+    background-color: #333;
+
+    color: white;
+
+}
+
+
+/* ==========================================
+   RODAPÉ
+   ========================================== */
+
+footer {
+
+    background-color: #222;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 40px;
+
+}

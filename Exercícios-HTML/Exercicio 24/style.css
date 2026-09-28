@@ -1,0 +1,46 @@
+/*
+Seletor { propriedade: valor; }
+
+Seletor = elemento que será estilizado.
+Propriedade = característica que será alterada.
+Valor = configuração que será aplicada à propriedade.
+*/
+
+
+/* Regra 1: estilizando o corpo da página */
+
+body {
+    background-color: lightskyblue;
+    font-family: Arial;
+    margin: 30px;
+}
+
+
+/* Regra 2: estilizando o título */
+
+h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/* Regra 3: estilizando o subtítulo */
+
+h2 {
+    color: darkgreen;
+    font-size: 28px;
+    border-bottom: 2px solid darkgreen;
+}
+
+
+/* Estilizando os parágrafos */
+
+p {
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    background-color: white;
+    padding: 10px;
+}

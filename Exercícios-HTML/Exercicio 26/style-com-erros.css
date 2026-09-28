@@ -1,0 +1,30 @@
+body {
+    background-color: lightgray;
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1 {
+    colour: blue;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    font-size: 30px;
+}
+
+p {
+    colo: black;
+    font-size: vintepx;
+    text-align: justify;
+}
+
+.caixa {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+    list-style-typ: square;
+}

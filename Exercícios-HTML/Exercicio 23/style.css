@@ -1,0 +1,32 @@
+/* Cor de fundo da página */
+
+body {
+    background-color: lightgrey;
+}
+
+
+/* Título principal */
+
+h1 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+/* Títulos secundários */
+
+h2 {
+    color: darkgreen;
+    font-size: 28px;
+    text-align: left;
+}
+
+
+/* Parágrafos */
+
+p {
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}

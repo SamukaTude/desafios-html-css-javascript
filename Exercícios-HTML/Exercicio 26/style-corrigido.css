@@ -1,0 +1,37 @@
+/* Erro 1 corrigido: adicionamos : depois de background-color */
+body {
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+/* Erro 2 corrigido: adicionamos : depois de font-family */
+
+
+/* Erro 3 corrigido: adicionamos : depois de text-align */
+h1 {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/* Erro 4 corrigido: colour foi alterado para color */
+h2 {
+    color: green;
+    font-size: 30px;
+}
+
+
+/* Erro 5 corrigido: vintepx foi alterado para 20px */
+p {
+    color: black;
+    font-size: 20px;
+}
+
+
+/* Erro 6 corrigido: adicionamos a chave } que estava faltando */
+.caixa {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}

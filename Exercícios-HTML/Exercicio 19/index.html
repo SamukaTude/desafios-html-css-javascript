@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificando elementos com ID</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            min-height: 500px;
+            padding: 60px 10%;
+        }
+
+        #inicio {
+            background-color: #f2f2f2;
+        }
+
+        #html {
+            background-color: #e8f4ff;
+        }
+
+        #css {
+            background-color: #fff0e6;
+        }
+
+        #javascript {
+            background-color: #f0ffe8;
+        }
+
+        .topo {
+            display: block;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body id="topo">
+
+    <!-- Menu principal -->
+    <header>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#html">HTML</a>
+            <a href="#css">CSS</a>
+            <a href="#javascript">JavaScript</a>
+        </nav>
+    </header>
+
+
+    <!-- Primeira seção -->
+    <section id="inicio">
+        <h1>Aprendendo Tecnologia</h1>
+
+        <p>
+            Esta página apresenta alguns conceitos básicos
+            sobre desenvolvimento web.
+        </p>
+
+        <a class="topo" href="#topo">Voltar ao topo</a>
+    </section>
+
+
+    <!-- Segunda seção -->
+    <section id="html">
+        <h2>HTML</h2>
+
+        <p>
+            HTML é utilizado para criar a estrutura
+            das páginas web.
+        </p>
+
+        <a class="topo" href="#topo">Voltar ao topo</a>
+    </section>
+
+
+    <!-- Terceira seção -->
+    <section id="css">
+        <h2>CSS</h2>
+
+        <p>
+            CSS é utilizado para estilizar e organizar
+            a aparência das páginas web.
+        </p>
+
+        <a class="topo" href="#topo">Voltar ao topo</a>
+    </section>
+
+
+    <!-- Quarta seção -->
+    <section id="javascript">
+        <h2>JavaScript</h2>
+
+        <p>
+            JavaScript permite adicionar interatividade
+            e comportamentos às páginas web.
+        </p>
+
+        <a class="topo" href="#topo">Voltar ao topo</a>
+    </section>
+
+</body>
+
+</html>

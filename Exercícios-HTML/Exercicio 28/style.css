@@ -1,0 +1,160 @@
+/* Configurações gerais */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ===================================
+   SEÇÃO 1
+   Background Color
+   =================================== */
+
+.fundo-cor {
+    background-color: lightblue;
+
+    padding: 60px;
+
+    text-align: center;
+}
+
+.fundo-cor h2 {
+    color: darkblue;
+    font-size: 30px;
+}
+
+.fundo-cor p {
+    color: black;
+    font-size: 18px;
+}
+
+
+/* ===================================
+   SEÇÃO 2
+   Background Image
+   =================================== */
+
+.fundo-imagem {
+    background-image: url("");
+
+    background-size: cover;
+
+    background-position: center;
+
+    padding: 100px 30px;
+
+    text-align: center;
+}
+
+
+/* Caixa para deixar o texto legível */
+
+.conteudo {
+    background-color: rgba(0, 0, 0, 0.7);
+
+    color: white;
+
+    padding: 30px;
+
+    max-width: 600px;
+
+    margin: auto;
+}
+
+.conteudo h2 {
+    font-size: 32px;
+}
+
+.conteudo p {
+    font-size: 18px;
+}
+
+
+/* ===================================
+   SEÇÃO 3
+   Background Position
+   =================================== */
+
+.fundo-posicao {
+    background-image: url("images/tecnologia.jpg");
+
+    background-size: 300px;
+
+    background-repeat: no-repeat;
+
+    background-position: right center;
+
+    background-color: lightgray;
+
+    padding: 80px 40px;
+}
+
+.fundo-posicao h2 {
+    font-size: 30px;
+    color: darkblue;
+}
+
+.fundo-posicao p {
+    font-size: 18px;
+    color: black;
+}
+
+
+/* ===================================
+   DESAFIO
+   Seção de destaque
+   =================================== */
+
+.destaque {
+    background-image: url("images/tecnologia.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    min-height: 400px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* Caixa escura para facilitar a leitura */
+
+.conteudo-destaque {
+    background-color: rgba(0, 0, 0, 0.75);
+
+    color: white;
+
+    padding: 40px;
+
+    border-radius: 10px;
+
+    max-width: 600px;
+}
+
+.conteudo-destaque h2 {
+    font-size: 40px;
+}
+
+.conteudo-destaque p {
+    font-size: 20px;
+}
+
+.conteudo-destaque button {
+    padding: 12px 25px;
+
+    font-size: 16px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}

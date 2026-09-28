@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com botões</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Página com botões</h1>
+
+    <section>
+        <h2>Cadastrar</h2>
+        <p>Utilize este botão para cadastrar uma nova informação.</p>
+        <button onclick="cadastrar()">Cadastrar</button>
+    </section>
+
+    <section>
+        <h2>Editar</h2>
+        <p>Utilize este botão para alterar uma informação existente.</p>
+        <button onclick="editar()">Editar</button>
+    </section>
+
+    <section>
+        <h2>Excluir</h2>
+        <p>Utilize este botão para remover uma informação.</p>
+        <button onclick="excluir()">excluir</button>
+    </section>
+
+    <section>
+        <h2>Voltar</h2>
+        <p>Utilize este botão para retornar à página anterior.</p>
+        <button onclick="voltar()">voltar</button>
+    </section>
+
+    <script>
+        function cadastrar() {
+            alert("Cadastro realizado com sucesso!");
+        }
+        function editar() {
+            alert("Edição realizada com sucessso!");
+        }
+        function excluir() {
+            alert("Informação excluida com sucesso!");
+        }
+        function voltar() {
+            alert("Voltando para a página anterior!");
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+/* Cabeçalho */
+
+.cabecalho {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Menu */
+
+.menu {
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* Conteúdo */
+
+.conteudo {
+    background-color: white;
+    padding: 20px;
+}
+
+
+/* Rodapé */
+
+.rodape {
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* Links do menu */
+
+.menu a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+/* Duas áreas lado a lado */
+
+.area1,
+.area2 {
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Área 1 */
+
+.area1 {
+    background-color: lightgreen;
+}
+
+
+/* Área 2 */
+
+.area2 {
+    background-color: lightyellow;
+}

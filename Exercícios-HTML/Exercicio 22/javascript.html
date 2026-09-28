@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Primeiro contato com JavaScript</title>
+
+</head>
+
+<body>
+
+    <h1>Meu primeiro JavaScript</h1>
+
+    <p id="mensagem">
+        Clique no botão para alterar esta mensagem.
+    </p>
+
+    <button onclick="mudarTexto()">
+        Clique aqui
+    </button>
+
+    <button onclick="mudarTextoNovamente()">
+        Clique novamente
+    </button>
+
+
+    <script>
+
+        // JavaScript é utilizado para adicionar interatividade à página.
+
+        function mudarTexto() {
+
+            document.getElementById("mensagem").innerHTML =
+                "Você clicou no botão! O texto foi alterado.";
+
+        }
+
+
+        // Esta função altera o texto novamente.
+
+        function mudarTextoNovamente() {
+
+            document.getElementById("mensagem").innerHTML =
+                "Muito bem! Você está aprendendo JavaScript.";
+
+        }
+
+    </script>
+
+</body>
+
+</html>

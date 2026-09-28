@@ -1,0 +1,73 @@
+/* =========================================
+   SELETOR POR ELEMENTO
+   ========================================= */
+
+/* Seleciona todos os elementos <p> */
+
+p {
+    color: darkblue;
+    font-size: 18px;
+}
+
+
+/* =========================================
+   SELETOR POR ID
+   ========================================= */
+
+/* Seleciona somente o elemento que possui
+   id="titulo" */
+
+#titulo {
+    color: darkred;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* =========================================
+   SELETOR POR CLASSE
+   ========================================= */
+
+/* Seleciona todos os elementos
+   que possuem class="card" */
+
+.card {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid blue;
+}
+
+
+/* =========================================
+   SELETOR AGRUPADO
+   ========================================= */
+
+/* Aplica o mesmo estilo para h2 e h3 */
+
+h2,
+h3 {
+    color: darkgreen;
+}
+
+
+/* =========================================
+   SELETOR DESCENDENTE
+   ========================================= */
+
+/* Seleciona somente os <p> que estão
+   dentro de elementos com class="card" */
+
+.card p {
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+
+
+/* Estilo da lista */
+
+ul {
+    background-color: lightyellow;
+    padding: 25px;
+}

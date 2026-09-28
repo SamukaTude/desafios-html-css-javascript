@@ -1,0 +1,98 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #222;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/* Blocos de cores */
+
+.bloco {
+    width: 300px;
+    height: 100px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Cores por nome */
+
+.cor1 {
+    background-color: red;
+    color: white;
+}
+
+.cor2 {
+    background-color: blue;
+    color: white;
+}
+
+
+/* Cores hexadecimais */
+
+.cor3 {
+    background-color: #3498DB;
+    color: white;
+}
+
+.cor4 {
+    background-color: #2ECC71;
+    color: white;
+}
+
+
+/* Cores RGB */
+
+.cor5 {
+    background-color: rgb(255, 165, 0);
+    color: white;
+}
+
+.cor6 {
+    background-color: rgb(155, 89, 182);
+    color: white;
+}
+
+
+/* Cores RGBA */
+
+.cor7 {
+    background-color: rgba(231, 76, 60, 0.6);
+    color: black;
+}
+
+.cor8 {
+    background-color: rgba(52, 152, 219, 0.5);
+    color: black;
+}
+
+
+/* Cores HSL - desafio */
+
+.cor9 {
+    background-color: hsl(39, 100%, 50%);
+    color: black;
+}
+
+.cor10 {
+    background-color: hsl(120, 60%, 50%);
+    color: white;
+}
